@@ -1,0 +1,129 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            width: 960px;
+            border: 1px solid red
+        }
+        
+        
+        header {
+            height: 150px;
+            width: 959.6px;
+            background-color: aqua ;
+        }
+       footer  {
+            height: 100px;
+            width: 959.6px;
+            background-color: aqua ;
+        }
+        .content {
+            height: 450px;
+            width: 959.6;
+           
+        }
+      section { 
+        width:60% ;
+        height: 450px;
+        float: left;
+      }
+       aside {
+        width: 39.6px;
+        height: 450px;
+        background-color: rgb (235,245,);
+        float: left;
+       }
+       article h3 {
+        text-align: center;
+        margin: 10px;
+        color: azure;
+       }
+       section article img {
+        height: 150px;
+        width: 575.6px;
+       }
+       .lbl {
+        height: 300px;
+        float: left ;
+        width: 200px;
+        margin-left: 20px;
+       }
+       .inp {
+        height: 300px;
+        float: left ;
+        width: 200px;
+       }
+       .cls {
+        clear: both;
+       }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header> </header>
+        <div class="cls"></div>
+        <div class="content"> 
+            <section>
+                <article> 
+                    <h3> HA LONG BAY </h3>
+                </article>
+                <article> 
+                    <img src="c:\Users\Admin\Downloads\ha-long-bay-1d.jpg" alt=""srcset="" > 
+                </article>
+                <article> 
+                    <form action="" method="get"> 
+                        <h4 style=" text-align: center;margin-top:10px;margin-bottom:5px;"> THONG TIN </h4>
+                        <div class="lbl" >
+                            <label for="">Ma Sinh Vien:</label> <br><br>
+                            <label for="">Ho Ten:</label><br><br>
+                            <label for="">Ngay Sinh:</label><br><br>
+                            <label for="">Que Quan:</label><br><br>
+                            <label for="">Gioi Tinh</label>
+
+                        </div>
+                        <div class="inp"> 
+                           <input type="text" name=" txtMa" id="txtMa"><br><br> 
+                           <input type="text" name=" txtHT" id="txtHT"><br><br> 
+                           <input type="date" name=" txtdate" id="txtdate"><br><br> 
+                           <select name="slQQ" id="slQQ">
+                            <option value="Can Tho" >
+                                Can Tho
+                            </option>
+                            <option value="Long An" >
+                                Long An
+                            </option>
+                            <option value="Ho Chi Minh"> 
+                                TP.HCM
+                            </option> 
+                           </select><br><br>
+                           <input type="radio" name="gt" id="ckbNam" value="Nam"><label>Nam</label>
+                           <input type="checkbox" name="gt" id="ckbNu" value="Nu"><label>Nu</label>
+                        </div>
+                        <div class="cls"></div>
+                        <center> 
+                            <button type="submit">Dang ky</button>
+                            <button type="reset">Huy</button>
+                        </center>
+                    </form>
+                </article>
+            </section>
+            <aside> </aside>
+
+        </div>
+            <div class="cls"> </div>
+            <footer> </footer>
+    </div>
+</body>
+</html>
+
+        
+        
